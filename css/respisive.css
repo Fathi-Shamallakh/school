@@ -1,0 +1,21 @@
+@media (max-width : 992px) {
+  nav {
+    display: none;
+  }
+  header .bar-icon{
+    display: block;
+  }
+  .parent .parent-opinions {
+      grid-template-columns: repeat(1 , 1fr);
+      gap: 3rem;
+  
+  }
+}
+
+@media (max-width:768px) {
+  .goals .number-goals {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.5rem;
+  }
+}
